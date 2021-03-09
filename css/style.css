@@ -393,6 +393,7 @@ ul {
 .faq-ul-head {
   display: flex;
   justify-content: space-between;
+  text-align: left !important;
 }
 
 .faq-ul-head i {
