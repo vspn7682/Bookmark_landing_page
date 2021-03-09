@@ -913,6 +913,7 @@ section {
 
   .hero-text .btn {
     font-size: 13px;
+    padding: 10px;
   }
 
   .hero-img img {
