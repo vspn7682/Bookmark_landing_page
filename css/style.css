@@ -670,8 +670,26 @@ section {
     font-size: 14px;
   }
 
+  .hero-text h1 {
+    font-size: 48px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 10px 25px;
+  }
+
+  .hero-img img {
+    width: 100%;
+  }
   .hero-img .box {
     width: 700px;
+    top: 30%;
+    height: 320px;
   }
 
   .features-img .box {
