@@ -692,8 +692,23 @@ section {
     height: 320px;
   }
 
+  .section-heading .subheading {
+    font-size: 32px;
+  }
+
+  .section-heading .para {
+    font-size: 18px;
+    margin-top: 18px;
+  }
+
+  .features-nav a {
+    font-size: 18px;
+  }
+
   .features-img .box {
-    width: 800px;
+    width: 700px;
+    height: 320px;
+    top: 45%;
   }
 
   .features-nav {
@@ -701,17 +716,96 @@ section {
     justify-content: center;
   }
 
+  .features-img img {
+    height: auto;
+    width: auto;
+  }
+
   .features-nav a {
     margin-right: 50px;
   }
 
-  .extension-wrapper {
-    justify-content: center;
+  .features-text h2 {
+    font-size: 32px;
   }
 
-  .features-box {
+  .features-text p {
+    font-size: 18px;
+  }
+
+  .features .btn {
+    font-size: 14px;
+  }
+
+  .extension {
+    padding: 140px 0;
+  }
+
+  .extension-wrapper {
+    justify-content: space-between;
+  }
+
+  /* .features-box {
     margin-left: 20px;
     margin-right: 20px;
+  } */
+
+  .extension-wrapper img {
+    width: 100px;
+  }
+
+  .extension-wrapper h3 {
+    font-size: 22px;
+    margin-top: 25px;
+  }
+
+  .extension-wrapper p {
+    font-size: 16px;
+  }
+
+  .extension .btn {
+    font-size: 14px;
+  }
+
+  .faq-wrapper ul li h3 {
+    font-size: 17px;
+  }
+
+  .faq-wrapper ul li p {
+    font-size: 16px;
+  }
+
+  .contact-wrapper p {
+    font-size: 15px;
+  }
+
+  .contact-wrapper h2 {
+    font-size: 32px;
+  }
+
+  form input {
+    padding: 16px 22px;
+    font-size: 15px;
+  }
+
+  form button.btn {
+    font-size: 14px;
+  }
+
+  form input::placeholder {
+    font-size: 15px;
+  }
+
+  .left .footer-menu a {
+    font-size: 16px;
+  }
+
+  .left img {
+    width: 130px;
+  }
+
+  .right i {
+    font-size: 16px;
   }
 }
 
